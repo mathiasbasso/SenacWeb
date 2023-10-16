@@ -2,9 +2,9 @@
 <html Lang="pt-br">
 
 <head>
-  <title>Site Carousel</title>
+  <title>AprendiFacilmente</title>
   <meta charset="utf-8">
-  <link rel="icon" href="img/favicon-boot.png">
+  <link rel="icon" href="img/logo.png">
   <link href="boostrap4.1.3/css/bootstrap.min.css" rel="stylesheet" />
   <link href="fontawesome-6.4.2/css/all.min.css " rel="stylesheet" />
   <link href="estilo/carousel.css" rel="stylesheet">
@@ -15,7 +15,9 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html"><img src="">AprendiFacilmente</a>
+      <a class="navbar-brand" href="index.html"><img class="first-slide img-logo" src="img/logo.png" alt=""></a>
+      
+      <a class="navbar-brand" href="index.html">AprendiFacilmente</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,21 +48,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide img-site" src="img/img01.png" alt="First slide">
+          <img class="first-slide img-site" src="img/gifLogo.gif" alt="First slide">
           <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>ENEM</h1>
-              <p>Se prepare para o ENEM!</p>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Quero passar!</a></p>
-            </div>
+           
           </div>
         </div>
         <div class="carousel-item">
           <img class="second-slide img-site" src="img/christmas-5740350_1920.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Ensino Médio</h1>
-              <p>Também temos materiais para estudantes do ensino médio se darem bem demais!</p>
+              <h1>ENEM</h1>
+              <p>Nós possuimos </p>
               <p><a class="btn btn-lg btn-sucess" href="#" role="button">Em busca do 10!</a></p>
             </div>
           </div>
@@ -91,12 +89,37 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-md-4">
-          <img class="rounded-circle" src="img/astronaut-8061095_1920.png" alt="Generic placeholder image" width="140"
+          <img class="rounded-circle" src="img/logoMatematica.png" alt="Generic placeholder image" width="140"
             height="140">
-          <h2>Titulo 01</h2>
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab enim voluptatum, nobis, cupiditate soluta
-            iste ullam quia laboriosam laudantium veritatis, minima at atque odio commodi. Illum, omnis sequi! Quo,
-            dicta.</p>
+          <h2>Matemática</h2>
+          <p>Todo conteúdo de matemática para você desafiar os números e mostrar quem manda!</p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maisinformacao">Mais
+              informações</button></p>
+
+        </div>
+        <div class="col-md-4">
+          <img class="rounded-circle"
+            src="img/quimica.avif.png " alt="Generic placeholder image" width="180" height="140">
+          <h2>Química</h2>
+          <p> Aqui você encontra o melhor conteúdo pra fazer os melhores vulcões!💥</p>
+          <p><a href="#" class="btn btn-primary"  data-toggle= "tooltip" data-placement = "right" 
+            title="Você vai acessar um link">Acesse o link </a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="rounded-circle"
+            src="img/biologia.png"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2>Biologia</h2>
+          <p> Aqui você vê que os dinossauros tinham penas!</p>
+          <p><a href="#" class="btn btn-primary">Acesse o link </a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="rounded-circle" src="img/fisica.png" alt="Generic placeholder image" width="140"
+            height="140">
+          <h2>Física</h2>
+          <p>Todo conteúdo de matemática para você desafiar os números e mostrar quem manda!</p>
           <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maisinformacao">Mais
               informações</button></p>
 
@@ -105,7 +128,7 @@
           <img class="rounded-circle"
             src="img/dinosaur-5178645_640.png"
             alt="Generic placeholder image" width="140" height="140">
-          <h2>Titulo 02</h2>
+          <h2>Portugues </h2>
           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab enim voluptatum, nobis, cupiditate soluta
             iste ullam quia laboriosam laudantium veritatis, minima at atque odio commodi. Illum, omnis sequi! Quo,
             dicta.</p>
@@ -163,6 +186,7 @@
       </div>
       <hr class="featurette-divider" />
     </div>
+    
     <footer class="container">
       <p class="float-right"><a href="#">Voltar ao topo</a></p>
       <p>

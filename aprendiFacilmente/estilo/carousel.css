@@ -7,9 +7,18 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
+  .video-site{
+    width: 50%;
+    height: 50%;
+  }
+
+.img-logo{
+  width: 30px;
+  height: 30px;
+}
 
 .img-site{
-  width: 100%;
+  width: 20%;
   height: 100%;
   object-fit: cover;
 }
